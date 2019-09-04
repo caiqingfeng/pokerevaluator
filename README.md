@@ -161,6 +161,7 @@ flush score lookup table的size：len of flushScoreTable 42324
 3. gtest (will be installed automatically)
 
 #### git clone, build, test and run
+```
 $ git clone git@github.com:caiqingfeng/pokerevaluator 
 $ cd primev3-cpp-clean
 $ mkdir release
@@ -168,6 +169,7 @@ $ cd release
 $ cmake -DCMAKE_BUILD_TYPE=Release ..
 $ make all test
 $ cd .. && release/pokercpp
+```
 
 ### API
 Just Call the API getScore(handString);
